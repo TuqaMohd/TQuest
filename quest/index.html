@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Official Quest</title>
+    <link rel="icon" type="image/jpeg" href="/images/cat.jpg" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="../src/main-quest.tsx"></script>
+  </body>
+      <div class="max-w-6xl mx-auto px-5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-7 py-8">
+      <div id="footer-about">
+        <span class="font-serif text-xl font-bold text-emeraldDark">TQuest.</span><hr>
+        <p class="text-sm text-orange-950 mt-3 font-semibold">This is the path I have carved to allow users to explore the difference between JavaScript and TypeScript in a quest-like approach.</p>
+      </div>
+
+      <div>
+        <h4 class="text-emerald text-sm font-extrabold mb-3">Need a warmup?</h4>
+        <ul id="footerCategoryList" class="text-sm space-y-2">
+          <li><a class="text-gray-400 text-sm font-bold mb-3" href="products.html">Learn the basics</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-emerald text-sm font-extrabold mb-3">Feeling pumped?</h4>
+        <ul class="text-sm space-y-2">
+          <li><a class="text-gray-400 text-sm font-bold mb-3" href="#">Join the quest</a></li>
+        </ul>
+      </div>
+
+      <div id="footer-contact">
+        <h4 id="footer-newsletter" class="text-emerald text-sm font-extrabold mb-3">Tuqa's Newsletter</h4>
+        <p class="text-sm text-gray-400 mb-3 font-bold">Sign up to join our community!</p>
+        <form id="newsletterForm" class="flex border border-gray-700 rounded overflow-hidden">
+          <input type="email" required placeholder="Your email" class="flex-1 bg-transparent px-3 py-2 text-emeraldDark text-sm outline-none">
+          <button type="submit" class="bg-parchmentDark text-emeraldDark px-4 text-xs uppercase font-bold">Join</button>
+        </form>
+      </div>
+    </div>
+</html>
