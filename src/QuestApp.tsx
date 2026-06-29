@@ -18,7 +18,7 @@ export default function QuestApp() {
               Dashboard
             </a>
             <span className="px-5 py-2 rounded border-2 border-gold inline-block bg-gold text-ink">
-              JavaScript vs TypeScript
+              Official Quest
             </span>
           </nav>
         </header>
